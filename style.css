@@ -389,6 +389,10 @@ progress {
 
 @media (max-width: 1421px){
 .text-block p , .image-box{
-margin-bottom:30px;
+    margin-bottom: 30px;
+}
+
+.text-block h1{
+    line-height: 116px;
 }
 }
