@@ -385,3 +385,10 @@ progress {
 .text-block_default {
     display: none;
 }
+
+
+@media (max-width: 1421px){
+.text-block p , .image-box{
+margin-bottom:30px;
+}
+}
