@@ -127,6 +127,15 @@ nav {
 }
 
 @media only screen and (max-width: 500px) {
+     .block_image .intro.yelBtn{
+        margin:0 auto;
+    width: 240px;
+    height: 60px;
+    min-height: 60px;
+    }
+    .block_image .yelBtn span{
+    display: contents;
+    }
     .container {
         flex-direction: column;
         /* padding: 0 2vw; */
