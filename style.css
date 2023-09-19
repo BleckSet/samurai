@@ -127,14 +127,30 @@ nav {
 }
 
 @media only screen and (max-width: 500px) {
+    .image-box{
+        width:30%!important;
+    }
+    .text-block p{
+line-height:19px;
+    }
+    .block_image{
+        gap:10px;
+    }
+    .box svg{
+        width:18px;
+    }
      .block_image .intro.yelBtn{
         margin:0 auto;
     width: 240px;
     height: 60px;
     min-height: 60px;
+    border-radius:20px;
     }
     .block_image .yelBtn span{
     display: contents;
+font-size: 16.553px;
+font-weight: 700;
+        
     }
     .container {
         flex-direction: column;
